@@ -1,0 +1,11 @@
+<div class="card">
+  <h1>{{ correctAnswer }}</h1>
+  <img src="{{this.imageUrl}}" />
+  <input
+    name="type-guess"
+    type="text"
+    value=""
+    placeholder="guess"
+    (input)="onGuessChange()"
+  />
+</div>
